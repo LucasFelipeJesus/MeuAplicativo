@@ -15,7 +15,7 @@ export default function Login() {
 
     return (
         <View style={styles.container}>
-            <Image style={styles.logo} source={require("../assets/react_1.png")} />
+            <Image style={styles.logo} source={require("../assets/react_2.png")} />
             <Text style={[{ color: defaultColor || 'blue' }, styles.title]}>Login</Text>
             <StyledInput placeholder="Digite seu login" onChangeText={(text) => console.log(text)} color={defaultColor} />
             <StyledInput placeholder="Digite seu senha" onChangeText={(text) => console.log(text)} color={defaultColor} />

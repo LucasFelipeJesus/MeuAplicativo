@@ -1,0 +1,4 @@
+interface StyledTextProps {
+    text: string;
+}
+

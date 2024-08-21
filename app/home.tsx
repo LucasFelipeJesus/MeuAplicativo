@@ -42,7 +42,7 @@ export default function App() {
             <View style={styles.header}>
                 <Link href="/" style={styles.backButton}>
                     <Ionicons name="arrow-back" size={24} color="black" />
-                    <Text style={styles.backText}>Sair</Text>
+                    <Text style={styles.backText}>Voltar</Text>
                 </Link>
             </View>
             <Text style={styles.title}>HOME</Text>

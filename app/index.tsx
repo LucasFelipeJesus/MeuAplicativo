@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Image } from "react-native";
 import StyledInput from "../components/styled-input";
 import StyledPressable from "../components/styled-pressable";
-import { router } from "expo-router";
+import { router } from "expo-router";//ele que direciona a rota
 import React from "react";
 
 export default function Login() {

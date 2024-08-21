@@ -15,7 +15,7 @@ export default function Login() {
 
     return (
         <View style={styles.container}>
-            <Image style={styles.logo} source={require("../assets/react_2.png")} />
+            <Image style={styles.logo} source={require("../assets/logobbqLJ.jpg")} />
             <Text style={[{ color: defaultColor || 'blue' }, styles.title]}>Login</Text>
             <StyledInput placeholder="Digite seu login" onChangeText={(text) => console.log(text)} color={defaultColor} />
             <StyledInput placeholder="Digite seu senha" onChangeText={(text) => console.log(text)} color={defaultColor} />
@@ -39,8 +39,8 @@ const styles = StyleSheet.create({
         margin: 20,
     },
     logo: {
-        width: 200,
-        height: 200,
+        width: 280,
+        height: 250,
         margin: 10,
     }
 });
